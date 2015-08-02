@@ -1,0 +1,1130 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"mo",
+				"mouseleave"
+			],
+			[
+				"fly",
+				"flyout-table"
+			],
+			[
+				"htm",
+				"htmlStr"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"zi",
+				"zipcont"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"d",
+				"draw"
+			],
+			[
+				"strp",
+				"strpos"
+			],
+			[
+				"hasvo",
+				"hasvoted"
+			],
+			[
+				"user",
+				"userdetails"
+			],
+			[
+				"pass",
+				"passcode"
+			],
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"pg-image-v",
+				"pg-image-vote-button"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"jso",
+				"json_decode"
+			],
+			[
+				"res",
+				"resizedJpegData"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"bas",
+				"base64_decode"
+			],
+			[
+				"return",
+				"returnstr"
+			],
+			[
+				"mysql_n",
+				"mysql_num_rows"
+			],
+			[
+				"ini",
+				"ini_set"
+			],
+			[
+				"record",
+				"record_id"
+			],
+			[
+				"bin",
+				"bindEscKey"
+			],
+			[
+				"load",
+				"loading-gif"
+			],
+			[
+				"un",
+				"unbindEscKey"
+			],
+			[
+				"ret",
+				"returnarr"
+			],
+			[
+				"base",
+				"base64_encode"
+			],
+			[
+				"re",
+				"returnarr"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"repe",
+				"repeat-x"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"unset",
+				"unset_cookie"
+			],
+			[
+				"my",
+				"mysql_database"
+			],
+			[
+				"m",
+				"mysql_host"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"img",
+				"imgsrc"
+			],
+			[
+				"item",
+				"itemprop"
+			],
+			[
+				"im",
+				"imgsrc"
+			],
+			[
+				"tr",
+				"trim"
+			],
+			[
+				"arr",
+				"array_product"
+			],
+			[
+				"de",
+				"details"
+			],
+			[
+				"data",
+				"dataparts"
+			],
+			[
+				"j",
+				"json_decode"
+			],
+			[
+				"preg_m",
+				"preg_match"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"mysql_",
+				"mysql_affected_rows"
+			],
+			[
+				"strt",
+				"strtoupper"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"imagett",
+				"imagettftext"
+			],
+			[
+				"print_",
+				"print_paragraph"
+			],
+			[
+				"icti",
+				"ictiee_2015_reg"
+			],
+			[
+				"co",
+				"contextmenuone"
+			],
+			[
+				"lis",
+				"list-style-image"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"pre",
+				"preg_match_all"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"sv",
+				"svgid"
+			],
+			[
+				"bold",
+				"bold"
+			],
+			[
+				"wi",
+				"weight"
+			],
+			[
+				"print_w",
+				"print_woff"
+			],
+			[
+				"is",
+				"is_array"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"get",
+				"getcwd"
+			],
+			[
+				"tab",
+				"tabs"
+			],
+			[
+				"ih",
+				"ihetml"
+			],
+			[
+				"title",
+				"titlex"
+			],
+			[
+				"rep",
+				"response"
+			],
+			[
+				"ex",
+				"executeScript"
+			],
+			[
+				"n",
+				"net"
+			],
+			[
+				"ne",
+				"netne"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"pa",
+				"parseInt"
+			],
+			[
+				"add",
+				"add-user-submit"
+			],
+			[
+				"preg",
+				"preg_replace"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"str",
+				"strUpper"
+			],
+			[
+				"sy",
+				"sync_id"
+			],
+			[
+				"date_de",
+				"date_default_timezone_set"
+			],
+			[
+				"KEY_SIRR",
+				"KEY_SIRRVER"
+			],
+			[
+				"KEY_SI",
+				"KEY_SIRRHOR"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"page",
+				"pagebits"
+			],
+			[
+				"sl",
+				"slideshow"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"da",
+				"datetime"
+			],
+			[
+				"tic",
+				"ticket_flag"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"send",
+				"send_mail"
+			],
+			[
+				"mysq",
+				"mysql_fetch_array"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"ti",
+				"ticket"
+			],
+			[
+				"tickt",
+				"tickets"
+			],
+			[
+				"mysql_f",
+				"mysql_fetch_array"
+			],
+			[
+				"c",
+				"click"
+			],
+			[
+				"ut",
+				"utsav-video"
+			],
+			[
+				"remv",
+				"removeClass"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"uts",
+				"utsav-videos"
+			],
+			[
+				"vid",
+				"video-tab-btns"
+			],
+			[
+				"_",
+				"_blank"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"Par",
+				"Partners"
+			],
+			[
+				"priz",
+				"prizedet"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 3792,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 473,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Prashanth/.ssh/config",
+			"settings":
+			{
+				"buffer_size": 482,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Prashanth/Apps/rustle/commit-8fbafa9",
+		"/C/Users/Prashanth/Apps/ejs-music/js/script.js",
+		"/C/Users/Prashanth/Apps/ejs-music/package.json",
+		"/C/Users/Prashanth/Apps/ejs-music/index.html",
+		"/C/Users/Prashanth/Apps/ejs-music/css/main.css",
+		"/C/Users/Prashanth/Apps/ejs-music/ejs-music.sublime-project",
+		"/C/Users/Prashanth/Apps/ejs-music/main.js",
+		"/C/Users/Prashanth/Apps/ejs-music/assets/lato-master/stylesheet.css",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/main.css",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/dbox.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/main.js",
+		"/C/Users/Prashanth/Pictures/EventsCell/ec.json",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/jscrollpane.css",
+		"/C/Users/Prashanth/Desktop/PWS/final-eventscell/index.php",
+		"/C/Users/Prashanth/Desktop/PWS/final-eventscell/js/main.js",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/backup.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/index 2.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/ec.json",
+		"/C/Users/Prashanth/Desktop/PWS/root/final-eventscell/css/main.css",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/main 2.css",
+		"/C/Users/Prashanth/Desktop/PWS/root/css/main.css",
+		"/C/Users/Prashanth/Desktop/PWS/root/js/main.js",
+		"/C/Users/Prashanth/Desktop/PWS/root/index.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/ip.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/jquery.bxslider.min.js",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/default.php",
+		"/C/Users/Prashanth/Downloads/BaiduYunSetup_web_2T/res/values/strings.xml",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/test.php",
+		"/C/Users/Prashanth/Downloads/BaiduYunSetup_web_2T/res/values-hdpi/styles.xml",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/typekitdl.php",
+		"/C/Users/Prashanth/Downloads/Fonts/Ubuntu/WF/demo.html",
+		"/C/Users/Prashanth/Downloads/Fonts/Ubuntu/WF/stylesheet.css",
+		"/C/Users/Prashanth/Downloads/Fonts/Ubuntu/WF/Ubuntu-Italic.svg",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/pleer.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/baidu.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/pleer.download.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/.lastcheck",
+		"/C/Users/Prashanth/Documents/GitHub/baidudl/index.php",
+		"/C/Users/Prashanth/Desktop/PWS/root/class.baidu.php",
+		"/C/Users/Prashanth/.ssh/config",
+		"/C/Users/Prashanth/Desktop/PWS/root/.lastcheck",
+		"/C/Users/Prashanth/Desktop/PWS/root/js/pace.js",
+		"/C/Users/Prashanth/Desktop/PWS/root/login.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/mega.class.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/login.php",
+		"/C/Users/Prashanth/Downloads/Compressed/a1431901_test.sql",
+		"/C/Users/Prashanth/Desktop/PWS/root/db.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/db.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/progress.htm",
+		"/C/Users/Prashanth/Downloads/Humans.S01E01.HDTV.x264-TLA.mp4",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/title.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/image.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/iupload.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/submit.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/extract.php",
+		"/C/Users/Prashanth/Downloads/d47b22dcdb7191bb6b752c4bd248f1e91856d76100420b5381ed62e396907897.m3u",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/upload.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/raw.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/heroku.css",
+		"/C/Users/Prashanth/Downloads/4db5af40f0a5b4945ff86e1bbbf3b854b4edea7de1ecbd66b6060e2dffd42c06.m3u",
+		"/C/Users/Prashanth/Documents/GitHub/index.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/ttip.html",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/tuto2.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/interface.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/.htaccess 2",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/Prashanth/Desktop/USBServer/root/fpdf/tutorial/tuto5.php",
+		"/C/Users/Prashanth/Desktop/USBServer/root/fpdf/tutorial/tuto2.php",
+		"/C/Users/Prashanth/Documents/GitHub/reinventio/lib/lib_functions.php",
+		"/C/Users/Prashanth/Desktop/USBServer/root/style.css",
+		"/C/Users/Prashanth/Desktop/USBServer/root/fpdf/tutorial/tuto6.php",
+		"/C/Users/Prashanth/Downloads/Hola/dht.info",
+		"/C/fb/com.whatsapp_preferences.xml",
+		"/C/Users/Prashanth/AppData/Local/Google/Chrome/User Data/Default/Extensions/pgmaidhfoodebfiocgananbdfnankehm/0.8.1_0/script.js",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/sc.php",
+		"/C/Users/Prashanth/Downloads/Elementary.S03E16.HDTV.x264-LOL[ettv]/view-source brudavideo.com wp-content uploads 2014 12 .html",
+		"/C/Users/Prashanth/Downloads/Fonts/SSPWF/stylesheet.css",
+		"/C/Users/Prashanth/Downloads/Fonts/SSPWF/stylesheet (2).css",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/sync.php",
+		"/C/Users/Prashanth/temp.txt",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/asd.txt",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/error_log 2",
+		"/C/Users/Prashanth/workspace/CivilEnggApp/res/layout/record_tab.xml",
+		"/C/Users/Prashanth/reg/register.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/error_log",
+		"/C/Users/Prashanth/Documents/GitHub/bsiproject/a7281369_db.sql",
+		"/C/Users/Prashanth/Documents/GitHub/reinventio/lib/reg/manage.php",
+		"/C/Users/Prashanth/Documents/GitHub/reinventio/lib/reg/regs.php",
+		"/C/Users/Prashanth/Documents/GitHub/bmscivilengg/index.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/inc.db.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/conn.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/config.inc.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/temp.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/phpinclude.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/logout.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/run.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/shl.sh",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/fz3temp.css",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/run.pl",
+		"/C/Users/Prashanth/inventory.sql",
+		"/C/Users/Prashanth/asdsad.sql",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/tmp.php",
+		"/C/Users/Prashanth/Downloads/db_records.sql",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/content.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/login.css",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/chat.htm",
+		"/C/Users/Prashanth/Downloads/WhatsApp Chat.txt",
+		"/C/Users/Prashanth/Downloads/Fonts/ProximaNovaSoft/stylesheet.css",
+		"/C/fb/files/doomed.sh",
+		"/C/fb/files/run_root_shell",
+		"/C/Users/Prashanth/AppData/Local/Temp/7zO6CFF.tmp/runme_win.bat",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/stylesheet.css",
+		"/C/Users/Prashanth/Downloads/Fonts/ProximaNovaSoft/webfont/stylesheet.css",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/bootstrap.min.yeti.css",
+		"/C/Users/Prashanth/Downloads/emailone",
+		"/C/Users/Prashanth/AppData/Local/Temp/7zOC2D2.tmp/build.prop",
+		"/C/Users/Prashanth/AppData/Local/Temp/7zO4EFC.tmp/build.prop",
+		"/C/Users/Prashanth/AppData/Local/Temp/7zO75FB.tmp/build.prop",
+		"/C/Users/Prashanth/AppData/Local/Temp/7zODD83.tmp/build.prop",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/nort.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/nortimage.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/fz3temp-1/phpQuery.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/7zOAD1B.tmp/phpQuery-onefile.php",
+		"/C/Users/Prashanth/AppData/Local/Temp/7zO2784.tmp/Newtonsoft.Json.xml",
+		"/C/Users/Prashanth/Documents/Visual Studio 2010/Projects/IMdb API/IMdb API/IMdb API.csproj",
+		"/C/Users/Prashanth/Documents/Visual Studio 2010/Projects/IMdb API/IMdb API/Properties/AssemblyInfo.cs"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ejs",
+			"\"",
+			"\"desc\":\"(.*?)\"",
+			"\\\\\\\\'s",
+			"'s",
+			"\\\\'s",
+			"\\\\\"",
+			"'",
+			"'s",
+			"\"",
+			"&amp;",
+			"(.*?)\\n",
+			"(.*?)\\n\\n",
+			"\\n([\\w\\s&]+)",
+			"\\n(.*?)\\n",
+			"\n",
+			"(.*?)\\n",
+			"&",
+			">\n",
+			"zIndex",
+			"String",
+			"</ string>",
+			" </",
+			"> ",
+			"c8c356fb3292e654630927639fc773f98c3c45e8d9cdd9a5c8f38674d01fd96",
+			"af7bef38075aa5e7c958c00bc3eeea68602ac218c2d0eb89b31e32060efdb5b",
+			"7c9321e24eb7b299a27397d1286e9ec66db00bfd53079546dd17e82aa93346a",
+			"        ",
+			"share",
+			"\n\n    ",
+			"\\n\\n",
+			"\n\n    ",
+			"\nDocument",
+			"Document",
+			"data-pace",
+			"width: 900px;\\n    height: 675px;",
+			"width: 800px;\\n    height: 600px;",
+			"username",
+			"password",
+			"\"",
+			"#pg-details:(.*?), .pg-details-image:(.*?)\\n",
+			"#mask:-",
+			"\\n\\n",
+			"link",
+			"mysqli",
+			"\\n\\n",
+			"#(.*?)\\n",
+			"\"",
+			".png",
+			"”",
+			"“",
+			"’",
+			"‘",
+			"400x265",
+			"\"",
+			" 	",
+			"   ",
+			"benton-sans",
+			"\\n",
+			"\\n\\n",
+			"#fallback (.*?)\\n",
+			"#EXT(.*?)\\n",
+			"#fallback - audio only - mp3\\n",
+			"\"",
+			"mkv",
+			"(.*?).mp4\\n",
+			"(.*?).mp4	(.*?)\\n",
+			"\\[VID\\]	",
+			"(.*?): (.*?)\\n",
+			".mp3",
+			"announce ",
+			"udp",
+			"mp3",
+			"/The.Americans/Season.2/480p/The.Americans.S02",
+			"`(.*?)`,",
+			"\\[(.*?)\\],",
+			"  (.*?)\\n",
+			"`(.*?)`(.*?)\\n",
+			"window.location.href",
+			"(.*?)\\n",
+			"	",
+			"\\$returnarr\\[\\\"(.*?)\\\"\\] = \\$row\\[\\\"(.*?)\\\"\\];\\n",
+			"(.*?)\\n",
+			"type='text' id='(.*?)'(.*?)>",
+			"\"",
+			"type='text' (.*?)>",
+			"_",
+			"\"",
+			"(.*?)\\n",
+			"(.*?),",
+			"\"",
+			"_",
+			"(.*?)\\n",
+			"(.*?),",
+			"<input class=\"rd-text\" type=\"text\" id=\"strid\">",
+			"INSERT INTO db_records",
+			" TEXT",
+			"INSERT INTO inventory",
+			"`(.*?)`(.*?),\\n",
+			"\"",
+			">",
+			"rm-user-menu-list",
+			"(.*?),",
+			"\"(.*?)\";\\n",
+			"	private static final String (.*?) = ",
+			"s3",
+			"S0\\dE(\\d+)",
+			"mkv",
+			"VM749:2 ",
+			" https://",
+			"Open Sans",
+			"->text()",
+			"reader\\[\"(.*?)\"]",
+			"(.*?),",
+			" INTEGER",
+			" TEXT",
+			"\", \" ",
+			"\", \" +",
+			"ws.Cells\\[1, (\\d+)]",
+			"_",
+			"(.*?), ",
+			"(.*",
+			"(.*?), ",
+			"<li>\".\\$row\\['(.*?)'\\].\"<\\/li>\\n",
+			"	",
+			"<li>\".\\$row\\['(.*?)'\\].\"<\\/li>\\n",
+			"(.*?),",
+			"(.*?)\\n\\t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"'",
+			"\"desc\":\"$1\",\\n\\t\\t\\t\\t\\t\"image\":\"http://placehold.it/180x120\"",
+			"\"desc\":\"$1\",\\n\\t\\t\\t\\t\"image\":\"http://placehold.it/180x120\"",
+			"&#39;s",
+			"\\\\'s",
+			"\\\\\\'s",
+			"'s",
+			"\\\\'",
+			"\"",
+			"\\\\'s",
+			"\\'s",
+			"'",
+			"and",
+			"{\\n\\t\"title\":\"$1\",\\n\\t\"desc\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\"\\n},\\n",
+			"{\\n\\t\"title\":\"$1\"\\n\\t\"desc\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\"\\n},\\n",
+			"{\\n\\t\"title\":\"$1\"\\n\\t\"desc\":\"\"\\n},\\n",
+			"{\\n\"title\":\"$1\"\\n},\\n",
+			"{\\n\"title\":\"$1\"\\n}",
+			"<li>$1</li>\\n",
+			"$1\\n",
+			"",
+			"{\"label\": \"$1\"},",
+			"{\"label\": \"$1\"}\\n",
+			"&amp;",
+			"string",
+			"</string>",
+			"</",
+			">",
+			"Ubuntu-Regular",
+			"Ubuntu-Bold",
+			"Ubuntu-Italic",
+			"    ",
+			"\\n",
+			"",
+			"width: 850px;\\n    height: 638px;",
+			"width: 900px;\\n    height: 675px;",
+			"hpid",
+			"passcode",
+			"'",
+			":$1 #pg-details, :$2 .pg-details-image\\n",
+			":-",
+			"\\n",
+			"mysql",
+			"\\n",
+			"",
+			"'",
+			".jpg",
+			"\"",
+			"'",
+			"400x300",
+			"'",
+			"	",
+			"",
+			"\\nhttp://srv2.hissmedia.com/",
+			"\\n",
+			"",
+			"'",
+			"http://brudavideo.com/wp-content/uploads/2014/12/$1.mp4\\n",
+			"$1.mp4\\n",
+			"",
+			"\"$1\": \"$2\",\\n",
+			"\"$1\": \"$2\"",
+			".mp3\\n",
+			"announce\\n\\n",
+			"announce\\n",
+			"http",
+			"/Continuum/Season%203/480p/Continuum.S03",
+			"'\".\\$$1.\"',",
+			"\\$$1,",
+			"",
+			"\\$$1 = \\$decoded[\"record\"][\"$1\"];\\n",
+			"$1\\n",
+			"datum[\"$1\"] = \\$(\"#$1\").val();\\n",
+			"$1='\".\\$$1.\"', ",
+			"\\$$1 = $_POST[\"$1\"];\\n",
+			"$$1 = $_POST[\"$1\"];\\n",
+			"",
+			"$1\\n",
+			"$returnarr[\"$1\"] = $row[\"$1\"];\\n",
+			"type='text' id='$1' value='\"+data.$1+\"' $2>",
+			"'",
+			"type='text' $1 disabled>",
+			"-",
+			"'",
+			"<div class=\"rd-textbox\">\\n<span class=\"rd-text-title\">$1</span>\\n<input class=\"rd-text\" type=\"text\" id=\"$1\">\\n</div>\\n",
+			"$1\\n",
+			"'",
+			"-",
+			"<div class=\"rd-textbox\">\\n<span class=\"rd-text-title\">$1</span>\\n<input class=\"rd-text\" type=\"text\" id=\"$1\">\\n</div>\\n",
+			"$1\\n",
+			"<div class=\"rd-textbox\">\\n<span class=\"rd-text-title\">Title</span>\\n<input class=\"rd-text\" type=\"text\" id=\"strid\">\\n</div>",
+			"INSERT INTO db_records (id,study_area,ward_no,names_screener,inv_type,date,str_id,occ_type,no_occ,roof_form,height_class,no_stories,design_class,design_quality,date_of_constn,story_height_ground,story_height_upper,no_bays_x,no_bays_y,bay_length_x,bay_length_y,struc_irr_hor,struc_irr_ver,survey_id,position,image) ",
+			"",
+			"INSERT INTO db_records",
+			"$1,",
+			"$1, ",
+			"'",
+			"rm-umenu",
+			"$1 varchar(400),",
+			"$1 varchar(400), ",
+			"$1, ",
+			"",
+			"s5",
+			"S05E$1",
+			"S05E0$1",
+			"",
+			"\\nhttps://",
+			"Lato",
+			"SanitizeText(reader[\"$1\"])",
+			"reader[\"$1\"] + \",\" +",
+			"",
+			"\",\" ",
+			"\",\" +",
+			"ws.Cells[1, $1].Value",
+			" ",
+			"ws.Cells[1, ] = \"$1\";\\n",
+			"<b>$1</b>, ",
+			"reader[\"$1\"] + \", \" +",
+			"reader[\"$1\"] + \", \"",
+			"$1, ",
+			"",
+			"$1, ",
+			"'$1': '\".$row['$1'].\"',",
+			"'$1': \".$row['$1'].\",",
+			"$row[\"$1\"],",
+			"\\t$1,",
+			"\\t$1",
+			"$3"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 3792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3792,
+								3792
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3283.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								467,
+								467
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main.js",
+					"settings":
+					{
+						"buffer_size": 473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								473,
+								473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Prashanth/.ssh/config",
+					"settings":
+					{
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true
+}

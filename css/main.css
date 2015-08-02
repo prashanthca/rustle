@@ -1,0 +1,218 @@
+* {
+    -webkit-transition: all 0.218s;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+body
+{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #232323;
+}
+ul#traffic-lights {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: right;
+    height: 0px;
+}
+
+#traffic-lights li {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    margin: 3px 3px;
+    cursor: pointer;
+    opacity: 0.7;
+    -webkit-transition: all 0.3s;
+    -webkit-app-region: no-drag;
+    position: relative;
+}
+#traffic-lights li:hover, #traffic-lights li:active {
+    opacity: 1;
+}
+
+#tb-title {
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-family: Lato;
+    color: #ddd;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+
+div#title-bar {
+    padding: 15px 15px 15px 15px;
+    background-color: #2f2f2f;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    border-bottom: 1px solid #1f1f1f;
+}
+
+li#min-btn {
+    background-color: #2ecc71;
+}
+
+li#max-btn {
+    background-color: #f1c40f;
+}
+li#close-btn {
+    background-color: #e74c3c;
+}
+.icon-after:after {
+    position: absolute;
+    font: 13px FontAwesome;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+}
+#close-btn.icon-after:after {
+    color: #AD3327;
+    content: '\f00d';
+    height: 15px;
+}
+#min-btn.icon-after:after {
+    color: #1F904F;
+    content: '\f068';
+    height: 12px;
+}
+#max-btn.icon-after:after {
+    color: #BE7D15;
+    content: '\f067';
+    height: 13px;
+}
+
+/*span#tb-title:before {
+    font: 15px FontAwesome;
+    content: '\f001';
+    margin: 0 10px 0 5px;
+}*/
+
+#tb-title:before {
+    content: "";
+    float: left;
+    background: url('../assets/icons/rustle-32x32.png');
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-size: 100%;
+    margin-right: 5px;
+}
+div#bottom-player {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    background-color: #191919;
+    border-top: 1px solid #181818;
+}
+
+div#mplayer-b {
+    margin: 10px 15px 10px 15px;
+}
+
+div#mplayer-controls {
+    float: left;
+    margin: 0 3% 0 2%;
+}
+
+div#mp-track {
+    float: left;
+    width: 75%;
+    background-color: #666;
+    border-radius: 10px;
+    height: 6px;
+    position: relative;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+div#mp-times {
+    position: absolute;
+    width: 100%;
+    margin-top: 8px;
+}
+
+span#mp-time-curr {
+    display: block;
+    float: left;
+    font: 10px Lato;
+    color: #bbb;
+    margin-left: 2px;
+}
+span#mp-time-len {
+    display: block;
+    float: right;
+    font: 10px Lato;
+    color: #bbb;
+    margin-right: 2px;
+}
+
+div#mp-track-cached {
+    position: absolute;
+    width: 10%;
+    height: 6px;
+    background-color: #95a5a6;
+    border-radius: 10px;
+}
+
+div#mp-track-played {
+    position: absolute;
+    width: 4%;
+    height: 6px;
+    background-color: #0061F7;
+    border-radius: 10px;
+}
+
+#mplayer-controls button {
+    margin: 1px 3px;
+    background-color: #111;
+    border: 2px solid #121212;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #eee;
+    outline: none;
+}
+#mplayer-controls button:hover {
+    background-color: #ccc;
+    color: #111;
+    border-color: #ddd;
+}
+#mplayer-controls button:active {
+    background-color: #eee;
+    color: #111;
+    box-shadow: inset 0px 1px 3px #999;
+    border-color: #eee;
+}
+#mplayer-controls button:before {
+    border-radius: 40px;
+    font: 14px FontAwesome;
+}
+#mp-prev,#mp-next {
+    width: 30px;
+    height: 30px;
+}
+button#mp-playpause {
+    width: 40px;
+    height: 40px;
+}
+button#mp-prev:before {
+    content: '\f048';
+}
+button#mp-playpause:before {
+    font-size: 18px;
+    margin-left: 3px;
+    content: '\f04b';
+}
+button#mp-next:before {
+    content: '\f051';
+}
