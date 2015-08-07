@@ -3,6 +3,12 @@ var remote = require("remote"),
 BrowserWindow = remote.require("browser-window");
 
 $(document).ready(function(){
+	BrowserWindow.getFocusedWindow().on('maximize',function(){
+		$("#content,#main,#header").addClass('maximized');
+	});
+	BrowserWindow.getFocusedWindow().on('unmaximize',function(){
+		$("#content,#main,#header").removeClass('maximized');
+	});
 	$("#min-btn").click(function(){
 		var w = BrowserWindow.getFocusedWindow();
 		w.minimize();

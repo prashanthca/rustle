@@ -16,29 +16,29 @@
 
 * {
     -webkit-transition: all 0.218s;
+    margin: 0;
+    padding: 0;
 }
-html {
-    width: 100%;
-    height: 100%;
-    background: #444;
-    border-radius: 4px;
-}
+
 body
 {
-    margin: 6px 0px;
-    width: 99.8%;
-    height: 98%;
-    background-color: #f2f2f0;
-    border-left: 1px solid #444;
-    border-right: 1px solid #444;
+    margin: 0px;
+    font-family: Lato;
 }
 ul#traffic-lights {
     list-style: none;
     padding: 0;
     margin: 0;
     display: block;
-    float: right;
-    height: 0px;
+    position: absolute;
+  margin: auto;
+  right: 20px;
+  top: 0;
+  bottom: 0;
+  
+    width: 75px;
+  
+    height: 24px;
 }
 
 #traffic-lights li {
@@ -58,22 +58,83 @@ ul#traffic-lights {
 }
 
 #tb-title {
-    display: block;
-    float: left;
+    position: absolute;
     font-size: 17px;
     font-family: Montserrat;
     color: #ddd;
     text-transform: uppercase;
     line-height: 22px;
+    margin: auto;
+    left: 20px;
+    /* right: 0; */
+    top: 0;
+    bottom: 0;
+    width: 99px;
+    height: 25px;
 }
 
 div#title-bar {
     padding: 15px 15px 15px 15px;
+}
+div#content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+div#header {
+    height: 9%;
+    width: 100%;
     background-color: #373737;
     -webkit-user-select: none;
     -webkit-app-region: drag;
+    position: relative;
+    z-index: 1;
 }
 
+div#main {
+    float: left;
+    height: 75%;
+    width: 100%;
+}
+
+div#sidebar {
+    height: 100%;
+    width: 25%;
+    float: left;
+    background: #d2d2d2;
+}
+
+div#content-right {
+    width: 75%;
+    float: right;
+    height: 100%;
+    display: inline-block;
+}
+
+div#footer {
+    height: 14.9%;
+    width: 100%;
+    background: #eaeae2;
+    position: relative;
+    border-top: 1px solid #ddd;
+}
+
+table#main {
+    width: 100%;
+    height: 76%;
+    border-collapse: collapse;
+    background-color: #f2f2f0;
+    display: block;
+    position: relative;
+}
+
+td#sidebar {
+    width: 21%;
+    border-right: 1px solid #ddd;
+    box-shadow: 3px 0px 10px #eaeaea;
+    float: left;
+}
 li#min-btn {
     background-color: #2ecc71;
 }
@@ -136,12 +197,20 @@ div#bottom-player {
 }
 
 div#mplayer-b {
-    margin: 10px 15px 10px 15px;
+    width: 100%;
+    position: relative;
+    height: 100%;
 }
 
 div#mplayer-controls {
-    margin: 0 auto;
-    text-align: center;
+    margin: auto;
+    position: absolute;
+    width: 245px;
+    height: 62px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 div#mp-track {
@@ -294,7 +363,82 @@ div#sidebar {
 
 div#content {
     float: right;
-    width: 75%;
+    width: 100%;
     height: 100%;
-    border-left: 1px solid #cbcbce;
+    border-top: none;
+}
+td#content-right {
+    width: 78.9%;
+    float: left;
+    /*border-top: 5px solid #dd6264;*/
+}
+#content.maximized{
+}
+#header.maximized {
+}
+#main.maximized {
+}
+
+#main td {
+    height: 100%;
+    display: inline-block;
+}
+
+#main tr {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+span.menu-header {
+    display: block;
+    padding:  12px 12px 11px 12px;
+    font-size: 14px;
+    color: #555;
+    text-shadow: 1px 1px 1px #fff;
+    text-transform: uppercase;
+    line-height: 20px;
+    padding-left: 24px;
+}
+
+#sb-menu-lib,#sb-menu-playlists {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+#sb-menu-lib li {
+    padding: 20px;
+    padding-left: 24px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    color: #555;
+}
+#sb-menu-lib li:first-child {
+}
+
+#sb-menu-lib {
+    margin: 0 0 20px 0;
+}
+
+ul#sb-menu-playlists li {
+    padding: 10px;
+    padding-left: 36px;
+    font-size: 14px;
+    color: #222;
+}
+
+#playlists-header:before {
+    content: '\f03a';
+    font: 14px FontAwesome;
+    margin-right: 10px;
+    position: absolute;
+    left: 24px;
+    top: 14px;
+}
+#playlists-header{
+    position:relative;
+    padding-left: 44px;
+    font-size: 15px;
 }

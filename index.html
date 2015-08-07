@@ -7,39 +7,60 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
+
 <body>
-	<div id="title-bar">
-		<div style="clear:both"></div>
-		<div id="tb-title">Rustle</div>
-		<ul id="traffic-lights">
-			<li id="min-btn"></li>
-			<li id="max-btn" class></li>
-			<li id="close-btn"></li>
-		</ul>
-		<div style="clear:both"></div>
-	</div>
-	<div id="bottom-player">
-		<div id="mplayer-b">
-			<div id="mp-track-2">
-				<div id="mp-track-2-played"></div>
-			</div>
-			<div id="mplayer-controls">
-				<span id="shuffle-toggle"></span>
-				<button id="mp-prev"></button>
-				<button id="mp-playpause"></button>
-				<button id="mp-next"></button>
-				<span id="repeat" repeat=""></span>
-			</div>
-			
-			<div id="mp-track">
-				<div id="mp-times">
-					<span id="mp-time-curr">0:00</span>
-					<span id="mp-time-len">3:42</span>
-				</div>
-				<div id="mp-track-cached"></div>
-				<div id="mp-track-played"></div>
-			</div>
+	<div id="content">
+		<div id="header">
+			<div id="tb-title">Rustle</div>
 			<div style="clear:both"></div>
+			<ul id="traffic-lights">
+				<li id="min-btn"></li>
+				<li id="max-btn" class></li>
+				<li id="close-btn"></li>
+			</ul>
+		</div>
+		<table id="main">
+			<tr>
+				<td id="sidebar">
+					
+					<ul id="sb-menu-lib">
+						<li>Tracks</li>
+						<li>Artists</li>
+						<li>Albums</li>
+					</ul>
+					<span id="playlists-header" class="menu-header">Playlists</span>
+					<ul id="sb-menu-playlists">
+						<li>Playlist 1</li>
+						<li>Playlist 1</li>
+					</ul>
+				</td>
+				<td id="content-right">
+				</td>
+			</tr>
+		</table>
+		<div id="footer">
+			<div id="mplayer-b">
+				<div id="mp-track-2">
+					<div id="mp-track-2-played"></div>
+				</div>
+				<div id="mplayer-controls">
+					<span id="shuffle-toggle"></span>
+					<button id="mp-prev"></button>
+					<button id="mp-playpause"></button>
+					<button id="mp-next"></button>
+					<span id="repeat" repeat=""></span>
+				</div>
+				
+				<div id="mp-track">
+					<div id="mp-times">
+						<span id="mp-time-curr">0:00</span>
+						<span id="mp-time-len">3:42</span>
+					</div>
+					<div id="mp-track-cached"></div>
+					<div id="mp-track-played"></div>
+				</div>
+				<div style="clear:both"></div>
+			</div>
 		</div>
 	</div>
 </body>
