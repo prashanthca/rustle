@@ -24,6 +24,7 @@ body
 {
     margin: 0px;
     font-family: Lato;
+    background-color: #333;
 }
 ul#traffic-lights {
     list-style: none;
@@ -363,9 +364,14 @@ div#sidebar {
 
 div#content {
     float: right;
-    width: 100%;
-    height: 100%;
+    width: 99.5%;
+    height: 99.2%;
     border-top: none;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 td#content-right {
     width: 78.9%;
@@ -373,6 +379,8 @@ td#content-right {
     /*border-top: 5px solid #dd6264;*/
 }
 #content.maximized{
+    width: 100%;
+    height: 100%;
 }
 #header.maximized {
 }
