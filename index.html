@@ -2,7 +2,6 @@
 <html>
 <head>
 	<title>Rustle</title>
-	<link rel="stylesheet" type="text/css" href="assets/fonts/lato-master/stylesheet.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/css/font-awesome.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
 	<script type="text/javascript" src="js/script.js"></script>
@@ -22,14 +21,25 @@
 		<table id="main">
 			<tr>
 				<td id="sidebar">
-					<span id="library-header" class="menu-header">Library</span>
 					<ul id="sb-menu-lib">
-						<li>Tracks</li>
-						<li>Favorites</li>
-						<li>Albums</li>
+						<li id="tracks">
+							<i class="sbm-icon" id="sb-tracks"></i>
+							<span class="sbm-title">Tracks</span>
+						</li>
+						<li id="albums">
+							<i class="sbm-icon" id="sb-albums"></i>
+							<span class="sbm-title">Albums</span>
+						</li>
+						<li id="favorites">
+							<i class="sbm-icon" id="sb-favorites"></i>
+							<span class="sbm-title">Favorites</span>
+						</li>
+						<li id="playlists">
+							<i class="sbm-icon" id="sb-playlists"></i>
+							<span class="sbm-title">Playlists</span>
+						</li>
 					</ul>
-					<span id="playlists-header" class="menu-header">Playlists</span>
-					<ul id="sb-menu-playlists">
+					<ul id="submenu-playlists">
 						<li>Playlist 1</li>
 						<li>Playlist 1</li>
 					</ul>
@@ -44,7 +54,6 @@
 					<div id="mp-track-2-played"></div>
 				</div>
 				<div id="mplayer-controls">
-					<span id="shuffle-toggle"></span>
 					<button id="mp-prev"></button>
 					<button id="mp-playpause"></button>
 					<button id="mp-next"></button>
@@ -60,6 +69,11 @@
 					<div id="mp-track-played"></div>
 				</div>
 				<div style="clear:both"></div>
+				<div id="track-info">
+					<img src="http://placehold.it/128x128" id="track-info-img">
+					<span id="track-info-title">Breaking the Habit</span>
+					<span id="track-info-artist">Linkin Park</span>
+				</div>
 			</div>
 		</div>
 	</div>

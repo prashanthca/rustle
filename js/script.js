@@ -9,6 +9,17 @@ $(document).ready(function(){
 	BrowserWindow.getFocusedWindow().on('unmaximize',function(){
 		$("#content,#main,#header").removeClass('maximized');
 	});
+	$("#header").dblclick(function(){
+		var w = BrowserWindow.getFocusedWindow();
+		if($("#content").hasClass("maximized"))
+		{
+			w.maximize();
+		}
+		else
+		{
+			w.unmaximize();
+		}
+	})
 	$("#min-btn").click(function(){
 		var w = BrowserWindow.getFocusedWindow();
 		w.minimize();
