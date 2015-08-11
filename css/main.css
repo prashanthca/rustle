@@ -48,6 +48,7 @@ body
     margin: 0px;
     font-family: Lato;
     background-color: #333;
+    overflow: hidden;
 }
 ul#traffic-lights {
     list-style: none;
@@ -233,7 +234,7 @@ div#mplayer-controls {
 
 div#mp-track {
     float: left;
-    width: 535px;
+    width: 48%;
     background-color: #666;
     height: 2px;
     position: absolute;
@@ -324,6 +325,10 @@ button#mp-playpause:before {
     margin-left: 6px;
     content: '\f04b';
 }
+button#mp-playpause.pause:before {
+    margin-left: 2px;
+    content: '\f04c';
+}
 button#mp-next:before {
     content: '\f051';
     font-size: 16px;
@@ -404,6 +409,7 @@ td#content-right {
     top: 1px;
 }
 #main.maximized {
+    height: 80%;
 }
 
 #main td {
@@ -555,14 +561,15 @@ ul#submenu-playlists {
     display: none;
 }
 #content.maximized #mp-track {
-    width: 800px;
+    width: 50%;
 }
 
 div#track-info {
     float: right;
-    width: 350px;
+    width: 24%;
     border-left: 1px solid #ccc;
     height: 100%;
+    margin-right: 1%;
 }
 
 #track-info-img {
@@ -595,5 +602,34 @@ span#track-info-artist {
 }
 
 #content.maximized #track-info {
-    width: 450px;
+    width: 24%;
+}
+#header.maximized {
+    height: 7%;
+}
+
+#content.maximized #footer {
+    height: 12.9%;
+}
+
+#repeat.one:after {
+    position: absolute;
+    bottom: 18px;
+    right: 10px;
+    content: '1';
+    font-size: 8px;
+    color: #fff;
+    background-color: #888;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#repeat:hover .one{
+    color: #da5c5d;
+}
+#mplayer-audio
+{
+    display: none;
 }

@@ -8,7 +8,8 @@ app.on("ready", function () {
 		height: 700,
 		show: false,
 		frame: false,
-		resizable: false,
+		"min-width": 1200,
+		"min-height": 700,
 		icon: __dirname+'/assets/icons/rustle.png'
 	});
 	mainWindow.loadUrl("file://"+__dirname+"/index.html");
