@@ -5,6 +5,7 @@ mplayer;
 
 $(document).ready(function(){
 	mplayer = document.getElementById("mplayer-audio");
+
 	BrowserWindow.getFocusedWindow().on('maximize',function(){
 		$("#content,#main,#header").addClass('maximized');
 	});
@@ -25,7 +26,16 @@ $(document).ready(function(){
 			$(this).addClass("pause");
 		}
 	});
-
+	$("#add-track-btn").click(function(e) {
+		if($(this).attr("state")=="close") {
+			$(this).attr("state","open");
+			$("#add-track-options").show();
+		}
+		else {
+			$(this).attr("state","close");
+			$("#add-track-options").hide();	
+		}
+	});
 	$("#min-btn").click(function(){
 		var w = BrowserWindow.getFocusedWindow();
 		w.minimize();
@@ -57,6 +67,12 @@ $(document).ready(function(){
 $(document).keydown(function(e){
 	if(e.keyCode == 81 && e.ctrlKey == true) { 
 		BrowserWindow.getFocusedWindow().openDevTools();
-        return false;
-    }
+		return false;
+	}
+});
+
+$(document).click(function(e){
+	if(e.target.id !== "add-track-btn" && $("#add-track-btn").attr("state") === "open") {
+		$("#add-track-btn").trigger("click");
+	}
 });
