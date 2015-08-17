@@ -69,6 +69,10 @@ $(document).keydown(function(e){
 		BrowserWindow.getFocusedWindow().openDevTools();
 		return false;
 	}
+	else if(e.keyCode == 82 && e.ctrlKey == true)
+	{
+		e.preventDefault();
+	}
 });
 
 $(document).click(function(e){
