@@ -1,6 +1,7 @@
 window.$ = window.jQuery = require(__dirname+"/js/jquery.js");
 var remote = require("remote"),
 BrowserWindow = remote.require("browser-window"),
+Tray = remote.require("tray"),
 mplayer;
 
 $(document).ready(function(){
@@ -53,7 +54,7 @@ $(document).ready(function(){
 	});
 	$("#close-btn").click(function(){
 		var w = BrowserWindow.getFocusedWindow();
-		w.close();
+		w.hide();
 	});
 	$("#traffic-lights li").each(function(){
 		$(this).mouseover(function(){

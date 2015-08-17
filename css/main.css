@@ -221,6 +221,7 @@ div#mplayer-b {
     width: 100%;
     position: relative;
     height: 100%;
+    -webkit-user-select: none;
 }
 
 div#mplayer-controls {
@@ -245,6 +246,7 @@ div#mp-track {
     top: 0;
     left: 280px;
     bottom: 0;
+    overflow: hidden;
 }
 
 div#mp-times {
@@ -277,10 +279,23 @@ div#mp-track-cached {
 
 div#mp-track-played {
     position: absolute;
-    width: 4%;
+    width: 14%;
     height: 2px;
     background-color: #e74c3c;
-    border-radius: 10px;
+
+}
+#mp-track-played.loading {
+    width: 102%;
+    -webkit-transform: translate3d(0, 0, 0);
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.2)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.2)), color-stop(0.75, rgba(255, 255, 255, 0.2)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    -webkit-animation: pace-theme-barber-shop-motion 500ms linear infinite;
+    -webkit-background-size: 10px 10px;
+}
+
+@-webkit-keyframes pace-theme-barber-shop-motion {
+  0% { -webkit-transform: none; transform: none; }
+  100% { -webkit-transform: translate(-10px,0); transform: translate(-10px, 0); }
 }
 
 #mplayer-controls button {
@@ -653,16 +668,16 @@ div#tracks-header {
     background-color: #f7f6f2;
     border-bottom: 1px solid #ceccc0;
     
-    height: 55px;
+    height: 45px;
     position: relative;
 }
 
 span#tracks-list-count {
     float: left;
-    font-size: 16px;
+    font-size: 14px;
     color: #7c7a7a;
     margin-left: 23px;
-    line-height: 56px;
+    line-height: 44px;
 }
 
 div#add-track {
@@ -676,7 +691,7 @@ div#add-track {
     position: absolute;
     width: 230px;
     right: 8px;
-    top: 60px;
+    top: 50px;
     border: 1px solid #ceccc0;
     background-color: #f8f8f8;
     z-index:9;
@@ -746,17 +761,21 @@ div#add-track {
 }
 
 #add-track-btn { 
-border:none;
 cursor: pointer;
 background-color: transparent;
- height: 40px; 
+ 
+height: 30px; 
  border: 1px solid #ccc; 
- width: 45px;
+ 
+padding: 5px 10px;
   position: relative;
   outline: none;
   margin: 8px 20px;
   border-radius: 1px;
-  }
+  
+font: 13px Lato;
+color: #555;
+}
 #add-track-btn:hover{ 
  border: 1px solid #bbb;
  background-color: #ededed; 
@@ -767,17 +786,12 @@ background-color: transparent;
  }
 
 #add-track-btn:before {
-    position: absolute;
-    left: 0;
-    right: 0;
     content: '\f067';
-    top: 0;
-    bottom: 0;
-    margin: auto;
     height: 14px;
     width: 14px;
-    font: 14px FontAwesome;
-    color: #565656;
+    font: 12px FontAwesome;
+    color: #666;
+    margin: 0 7px 0 0;
 }
 
 div#tab-tracks {
