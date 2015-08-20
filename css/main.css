@@ -225,28 +225,17 @@ div#mplayer-b {
 }
 
 div#mplayer-controls {
-    margin: auto;
-    position: absolute;
-    width: 210px;
-    height: 62px;
-    left: 3%;
-    /* right: 0; */
-    top: 0;
-    bottom: 0;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 div#mp-track {
-    float: left;
-    width: 48%;
+    width: 85%;
     background-color: #666;
     height: 2px;
-    position: absolute;
-    margin: auto;
     cursor: pointer;
-    top: 0;
-    left: 280px;
-    bottom: 0;
     overflow: hidden;
+    position: relative;
 }
 
 div#mp-times {
@@ -301,8 +290,7 @@ div#mp-track-played {
 #mplayer-controls button {
     margin: 1px 3px;
     background-color: transparent;
-    border: 2px solid #aaa;
-    border-radius: 40px;
+    border:none;
     cursor: pointer;
     color: #555;
     outline: none;
@@ -315,10 +303,7 @@ div#mp-track-played {
     text-shadow: 1px 1px 2px #ccc;
 }
 #mplayer-controls button:active {
-    background-color: #d7d8c8;
     color: #da5c5d;
-    border-color: #da5c5d;
-    box-shadow: inset 0px 1px 3px #999;
 }
 #mplayer-controls button:before {
     border-radius: 40px;
@@ -330,12 +315,20 @@ div#mp-track-played {
 }
 button#mp-playpause {
     width: 59px;
+    border: 2px solid #aaa;
+    border-radius: 40px;
     height: 60px;
 }
+button#mp-playpause:active {
+    border-color: #da5c5d;
+    background-color: #d7d8c8;
+    box-shadow: inset 0px 1px 3px #999;
+}
 button#mp-prev:before {
-    content: '\f048';
-    font-size: 16px;
+    content: '\e005';
+    font-size: 20px;
     margin-left: 2px;
+    font: 18px FlatIcon;
 }
 button#mp-playpause:before {
     font-size: 24px;
@@ -347,9 +340,10 @@ button#mp-playpause.pause:before {
     content: '\f04c';
 }
 button#mp-next:before {
-    content: '\f051';
+    content: '\e000';
     font-size: 16px;
     margin-left: 2px;
+    font: 18px FlatIcon;
 }
 div#mp-track-2 {
     width: 100%;
@@ -387,7 +381,7 @@ div#mp-track-2-played {
     font: 16px FontAwesome;
 }
 #repeat:before {
-    content: '\e002';
+    content: '\e004';
     font: 16px Flaticon;
 }
 div#main-content {
@@ -531,7 +525,7 @@ span.sbm-title {
     border-bottom: 1px solid #de6262;
 }
 #sb-tracks:before {
-    content: '\e000';
+    content: '\e003';
 }
 
 #sb-menu-lib li:hover #sb-albums {
@@ -540,7 +534,7 @@ span.sbm-title {
     border-bottom: 1px solid #2ecc71;
 }
 #sb-albums:before {
-    content: '\e001';
+    content: '\e002';
 }
 
 #sb-menu-lib li:hover #sb-favorites {
@@ -549,7 +543,7 @@ span.sbm-title {
     border-bottom: 1px solid #3498db;
 }
 #sb-favorites:before {
-    content: '\e003';
+    content: '\e001';
 }
 #sb-menu-lib li:hover #sb-playlists {
     background-color: #dca761;
@@ -557,7 +551,7 @@ span.sbm-title {
     border-bottom: 1px solid #dca761;
 }
 #sb-playlists:before {
-    content: '\e004';
+    content: '\e006';
 }
 
 
@@ -579,7 +573,7 @@ ul#submenu-playlists {
     display: none;
 }
 #content.maximized #mp-track {
-    width: 50%;
+    width: 85%;
 }
 
 div#track-info {
@@ -796,4 +790,16 @@ color: #555;
 
 div#tab-tracks {
     z-index: 1;
+}
+
+table#mplayer {
+    width: 96%;
+    height: 100%;
+    border-collapse: collapse;
+    margin: 0% 2% 0 2%;
+}
+
+td#mp-controls {
+    width: 20%;
+    text-align: center;
 }

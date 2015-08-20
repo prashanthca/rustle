@@ -68,27 +68,30 @@
 		<div id="footer">
 			<div id="mplayer-b">
 				<audio id="mplayer-audio" src=""></audio>
-				<div id="mplayer-controls">
-					<button id="mp-prev"></button>
-					<button id="mp-playpause" state="idle"></button>
-					<button id="mp-next"></button>
-					<span id="repeat" repeat=""></span>
-				</div>
-				
-				<div id="mp-track">
-					<div id="mp-times">
-						<span id="mp-time-curr">0:00</span>
-						<span id="mp-time-len">3:42</span>
-					</div>
-					<div id="mp-track-cached"></div>
-					<div id="mp-track-played"></div>
-				</div>
-				<div style="clear:both"></div>
+				<table id="mplayer">
+					<tbody><tr>
+						<td id="mp-controls">
+							<div id="mplayer-controls">
+								<button id="mp-prev"></button>
+								<button id="mp-playpause" state="idle"></button>
+								<button id="mp-next"></button>
+								<span id="repeat" repeat=""></span>
+							</div>
+						</td>
+						<td id="mp-track-div">
+							<div id="mp-track">
+								<div id="mp-track-cached"></div>
+								<div id="mp-track-played"></div>
+							</div>
+						</td>
+					</tr>
+				</tbody></table>
+				<!-- <div style="clear:both"></div>
 				<div id="track-info">
 					<img src="http://placehold.it/128x128" id="track-info-img">
 					<span id="track-info-title">Breaking the Habit</span>
 					<span id="track-info-artist">Linkin Park</span>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
