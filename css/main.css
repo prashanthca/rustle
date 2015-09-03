@@ -561,7 +561,9 @@ span.sbm-title {
 }
 
 ul#sb-menu-lib li:hover {
-    font-weight: 700;
+    font-weight: 400;
+    background-color: rgba(228, 226, 225, 0.42);
+    color: #333;
 }
 
 #sb-menu-lib li.active .sbm-icon {

@@ -5,8 +5,8 @@ Tray = remote.require("tray"),
 mplayer;
 
 $(document).ready(function(){
+	var socket = io.connect('http://localhost:3000/');
 	mplayer = document.getElementById("mplayer-audio");
-
 	BrowserWindow.getFocusedWindow().on('maximize',function(){
 		$("#content,#main,#header").addClass('maximized');
 	});
