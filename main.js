@@ -30,7 +30,7 @@ app.on("ready", function () {
 		"min-height": 700,
 		icon: __dirname+'/assets/icons/rustle-128x128.png'
 	});
-	mainWindow.loadUrl("file://"+__dirname+"/index.html");
+	mainWindow.loadURL("file://"+__dirname+"/index.html");
 	mainWindow.show();
 	mainWindow.on("close", function(){
 		mainWindow = null;
